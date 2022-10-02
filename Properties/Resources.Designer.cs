@@ -389,5 +389,15 @@ namespace Таблица_умножения_Forms.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Снимок_экрана_2022_10_02_153611 {
+            get {
+                object obj = ResourceManager.GetObject("Снимок экрана 2022-10-02 153611", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

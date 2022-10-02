@@ -203,7 +203,7 @@ namespace Таблица_умножения_Forms
                         button.BackgroundImage = Properties.Resources.PanelBack;
                     if (indexArr % 10 == 1 || indexArr % 10 == 4 || indexArr % 10 == 9)
                         button.BackgroundImage = Properties.Resources.PanelBack1;
-                    if (indexArr % 10 == 2 || indexArr % 10 == 6)
+          //         if (indexArr % 10 == 2 || indexArr % 10 == 6)
                         button.BackgroundImage = Properties.Resources.PanelBack2;
                     if (indexArr % 10 == 7 || indexArr % 10 == 8)
                         button.BackgroundImage = Properties.Resources.PanelBack4;

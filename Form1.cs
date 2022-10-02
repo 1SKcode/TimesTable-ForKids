@@ -16,9 +16,19 @@ namespace Таблица_умножения_Forms
 {
     public partial class Form1 : Form
     {
-        //-------------------------------------------//
         public Form1()
         {
+
+            Rectangle screenSize = Screen.PrimaryScreen.Bounds;
+            if (screenSize.Height < 900 || screenSize.Width < 1600)
+            {
+
+                MessageBox.Show(String.Format("Разрешение данного дисплея {1} x {0}. " +
+                    "Есть вероятность, что элементы отобразятся некорректно. " +
+                    "Рекомендуемое МИНИМАЛЬНОЕ разрешение экрана для использованния программы " +
+                    "- 1600 х 900" , screenSize.Size.Height, screenSize.Size.Width), "ПРЕДУПРЕЖДЕНИЕ!");
+            }
+            
             InitializeComponent();
             AddRatingTableOnPanel();
         }
@@ -157,19 +167,6 @@ namespace Таблица_умножения_Forms
             Application.Exit(); // Завершение жизненного цикла главной формы
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            Form3 form3 = new Form3();
-            this.Hide();
-            form3.ShowDialog();
-            Controls.Clear();
-            this.Refresh();
-            InitializeComponent();
-            AddRatingTableOnPanel();
-
-            this.Show();
-        }
-
         bool animathionIsWorking;
         bool newEventIsStart;
         private async void pictureBox4_MouseMove(object sender, MouseEventArgs e) // Анимация
@@ -254,11 +251,22 @@ namespace Таблица_умножения_Forms
             using (StreamWriter writer = new StreamWriter("Rating.txt", false)) // Перезапись файла
             {
                 writer.Write("");
-                Controls.Clear();
-                this.Refresh();
 
                 panel2.Controls.Clear();
             }
+        }
+
+        private void panel16_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            this.Hide();
+            form3.ShowDialog();
+            Controls.Clear();
+            this.Refresh();
+            InitializeComponent();
+            AddRatingTableOnPanel();
+
+            this.Show();
         }
     }
 }

@@ -247,6 +247,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Mt.ico" />
+    <None Include="Resources\Снимок экрана 2022-10-02 153611.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -56,9 +56,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI Black", 29.8F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label1.Location = new System.Drawing.Point(1271, 32);
+            this.label1.Location = new System.Drawing.Point(953, 26);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(283, 67);
+            this.label1.Size = new System.Drawing.Size(225, 54);
             this.label1.TabIndex = 17;
             this.label1.Text = "Уровень 1";
             // 
@@ -68,9 +69,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI Black", 130F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(269, 368);
+            this.label2.Location = new System.Drawing.Point(202, 299);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(850, 287);
+            this.label2.Size = new System.Drawing.Size(681, 230);
             this.label2.TabIndex = 18;
             this.label2.Text = "7 х 3 =";
             // 
@@ -78,9 +80,10 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Location = new System.Drawing.Point(1033, 151);
+            this.panel1.Location = new System.Drawing.Point(775, 123);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(757, 757);
+            this.panel1.Size = new System.Drawing.Size(568, 615);
             this.panel1.TabIndex = 19;
             // 
             // label3
@@ -89,9 +92,10 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe UI Black", 70F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label3.Location = new System.Drawing.Point(253, 238);
+            this.label3.Location = new System.Drawing.Point(190, 193);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(628, 155);
+            this.label3.Size = new System.Drawing.Size(505, 125);
             this.label3.TabIndex = 21;
             this.label3.Text = "Отлично!";
             this.label3.Visible = false;
@@ -102,9 +106,10 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Segoe UI Black", 40F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.DarkRed;
-            this.label4.Location = new System.Drawing.Point(354, 475);
+            this.label4.Location = new System.Drawing.Point(266, 386);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(348, 89);
+            this.label4.Size = new System.Drawing.Size(280, 72);
             this.label4.TabIndex = 22;
             this.label4.Text = "ошибок: ";
             this.label4.Visible = false;
@@ -115,9 +120,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI Black", 19.8F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(185, 736);
+            this.button1.Location = new System.Drawing.Point(139, 598);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(292, 172);
+            this.button1.Size = new System.Drawing.Size(219, 140);
             this.button1.TabIndex = 23;
             this.button1.Text = "Следующий\r\n уровень";
             this.button1.UseVisualStyleBackColor = false;
@@ -130,9 +136,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI Black", 19.8F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(607, 736);
+            this.button2.Location = new System.Drawing.Point(455, 598);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(292, 172);
+            this.button2.Size = new System.Drawing.Size(219, 140);
             this.button2.TabIndex = 24;
             this.button2.Text = "Повторить";
             this.button2.UseVisualStyleBackColor = false;
@@ -145,9 +152,10 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI Black", 19.8F, System.Drawing.FontStyle.Bold);
             this.button3.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(185, 736);
+            this.button3.Location = new System.Drawing.Point(139, 598);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(292, 172);
+            this.button3.Size = new System.Drawing.Size(219, 140);
             this.button3.TabIndex = 25;
             this.button3.Text = "Начать с\r\nпервого";
             this.button3.UseVisualStyleBackColor = false;
@@ -160,9 +168,10 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Segoe UI Black", 19.8F, System.Drawing.FontStyle.Bold);
             this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button4.Location = new System.Drawing.Point(-15, 12);
+            this.button4.Location = new System.Drawing.Point(-11, 10);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(200, 59);
+            this.button4.Size = new System.Drawing.Size(150, 48);
             this.button4.TabIndex = 27;
             this.button4.Text = "Сменить режим";
             this.button4.UseVisualStyleBackColor = false;
@@ -178,9 +187,10 @@
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label6);
-            this.panel3.Location = new System.Drawing.Point(-1, 71);
+            this.panel3.Location = new System.Drawing.Point(-1, 58);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(380, 0);
+            this.panel3.Size = new System.Drawing.Size(286, 0);
             this.panel3.TabIndex = 28;
             // 
             // label8
@@ -189,9 +199,10 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Segoe UI Black", 11F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(0, 159);
+            this.label8.Location = new System.Drawing.Point(0, 129);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(373, 75);
+            this.label8.Size = new System.Drawing.Size(296, 60);
             this.label8.TabIndex = 32;
             this.label8.Text = "● ПОИСК ПО ОТВЕТУ - дано число,\r\nнужно найти пример, ответ которого\r\nсовпадает с " +
     "искомым числом";
@@ -199,9 +210,10 @@
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Location = new System.Drawing.Point(0, 86);
+            this.panel4.Location = new System.Drawing.Point(0, 70);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(369, 1);
+            this.panel4.Size = new System.Drawing.Size(277, 1);
             this.panel4.TabIndex = 29;
             // 
             // label7
@@ -210,9 +222,10 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Segoe UI Black", 11F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(1, 90);
+            this.label7.Location = new System.Drawing.Point(1, 73);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(367, 50);
+            this.label7.Size = new System.Drawing.Size(288, 40);
             this.label7.TabIndex = 31;
             this.label7.Text = "● ПОИСК ПО ПРИМЕРУ - дан пример\r\nиз таблицы, нужно найти ответ";
             // 
@@ -222,9 +235,10 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Segoe UI Black", 20F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(100, 3);
+            this.label5.Location = new System.Drawing.Point(75, 2);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(168, 46);
+            this.label5.Size = new System.Drawing.Size(135, 37);
             this.label5.TabIndex = 29;
             this.label5.Text = "Выбран:";
             // 
@@ -234,9 +248,10 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Segoe UI Black", 17F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.Teal;
-            this.label6.Location = new System.Drawing.Point(25, 41);
+            this.label6.Location = new System.Drawing.Point(19, 33);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(321, 40);
+            this.label6.Size = new System.Drawing.Size(257, 31);
             this.label6.TabIndex = 30;
             this.label6.Text = "\"поиск по примеру\"";
             // 
@@ -246,9 +261,10 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Segoe UI Black", 16F, System.Drawing.FontStyle.Bold);
             this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label9.Location = new System.Drawing.Point(390, -85);
+            this.label9.Location = new System.Drawing.Point(292, -69);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(318, 37);
+            this.label9.Size = new System.Drawing.Size(259, 30);
             this.label9.TabIndex = 29;
             this.label9.Text = "(уровень сохранится)";
             // 
@@ -258,9 +274,10 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Segoe UI Black", 40F, System.Drawing.FontStyle.Bold);
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(173)))), ((int)(((byte)(55)))));
-            this.label10.Location = new System.Drawing.Point(353, 392);
+            this.label10.Location = new System.Drawing.Point(265, 318);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(363, 89);
+            this.label10.Size = new System.Drawing.Size(292, 72);
             this.label10.TabIndex = 30;
             this.label10.Text = "БАЛЛЫ:  ";
             this.label10.Visible = false;
@@ -271,15 +288,16 @@
             this.panel2.BackgroundImage = global::Таблица_умножения_Forms.Properties.Resources.free_icon_remove_1550599__Пользовательское_;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel2.Location = new System.Drawing.Point(1820, 9);
+            this.panel2.Location = new System.Drawing.Point(1835, 9);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(70, 71);
+            this.panel2.Size = new System.Drawing.Size(65, 65);
             this.panel2.TabIndex = 26;
             this.panel2.Click += new System.EventHandler(this.panel2_Click);
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
@@ -300,6 +318,7 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "РЕЖИМ ИГРЫ - уровень 1";
