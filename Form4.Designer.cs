@@ -56,21 +56,21 @@
             this.DoubleShot = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.panel18 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.panel13 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel9.SuspendLayout();
-            this.panel11.SuspendLayout();
-            this.panel17.SuspendLayout();
             this.panel12.SuspendLayout();
+            this.panel17.SuspendLayout();
+            this.panel11.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -336,7 +336,7 @@
             this.DoubleShot.BackColor = System.Drawing.Color.Transparent;
             this.DoubleShot.Font = new System.Drawing.Font("Comic Sans MS", 28.8F, System.Drawing.FontStyle.Bold);
             this.DoubleShot.ForeColor = System.Drawing.Color.DarkGreen;
-            this.DoubleShot.Location = new System.Drawing.Point(819, 134);
+            this.DoubleShot.Location = new System.Drawing.Point(814, 134);
             this.DoubleShot.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.DoubleShot.Name = "DoubleShot";
             this.DoubleShot.Size = new System.Drawing.Size(299, 55);
@@ -371,6 +371,72 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(317, 702);
             this.panel9.TabIndex = 44;
+            // 
+            // panel12
+            // 
+            this.panel12.Controls.Add(this.label12);
+            this.panel12.Location = new System.Drawing.Point(42, 38);
+            this.panel12.Margin = new System.Windows.Forms.Padding(2);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(98, 35);
+            this.panel12.TabIndex = 47;
+            this.panel12.Visible = false;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Comic Sans MS", 15.6F, System.Drawing.FontStyle.Bold);
+            this.label12.Location = new System.Drawing.Point(0, 2);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(90, 30);
+            this.label12.TabIndex = 45;
+            this.label12.Text = "8x6=64";
+            // 
+            // panel17
+            // 
+            this.panel17.Controls.Add(this.label14);
+            this.panel17.Location = new System.Drawing.Point(181, 3);
+            this.panel17.Margin = new System.Windows.Forms.Padding(2);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(98, 35);
+            this.panel17.TabIndex = 47;
+            this.panel17.Visible = false;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Comic Sans MS", 15.6F, System.Drawing.FontStyle.Bold);
+            this.label14.Location = new System.Drawing.Point(0, 2);
+            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(90, 30);
+            this.label14.TabIndex = 45;
+            this.label14.Text = "8x6=64";
+            // 
+            // panel13
+            // 
+            this.panel13.BackgroundImage = global::Таблица_умножения_Forms.Properties.Resources.cancel;
+            this.panel13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel13.Location = new System.Drawing.Point(3, 38);
+            this.panel13.Margin = new System.Windows.Forms.Padding(2);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(35, 35);
+            this.panel13.TabIndex = 46;
+            this.panel13.Visible = false;
+            // 
+            // panel18
+            // 
+            this.panel18.BackgroundImage = global::Таблица_умножения_Forms.Properties.Resources.check_mark;
+            this.panel18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel18.Location = new System.Drawing.Point(142, 3);
+            this.panel18.Margin = new System.Windows.Forms.Padding(2);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(35, 35);
+            this.panel18.TabIndex = 46;
+            this.panel18.Visible = false;
             // 
             // panel11
             // 
@@ -414,72 +480,6 @@
             this.panel14.Size = new System.Drawing.Size(267, 1);
             this.panel14.TabIndex = 45;
             // 
-            // panel17
-            // 
-            this.panel17.Controls.Add(this.label14);
-            this.panel17.Location = new System.Drawing.Point(181, 3);
-            this.panel17.Margin = new System.Windows.Forms.Padding(2);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(98, 35);
-            this.panel17.TabIndex = 47;
-            this.panel17.Visible = false;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("Comic Sans MS", 15.6F, System.Drawing.FontStyle.Bold);
-            this.label14.Location = new System.Drawing.Point(0, 2);
-            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(90, 30);
-            this.label14.TabIndex = 45;
-            this.label14.Text = "8x6=64";
-            // 
-            // panel18
-            // 
-            this.panel18.BackgroundImage = global::Таблица_умножения_Forms.Properties.Resources.check_mark;
-            this.panel18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel18.Location = new System.Drawing.Point(142, 3);
-            this.panel18.Margin = new System.Windows.Forms.Padding(2);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(35, 35);
-            this.panel18.TabIndex = 46;
-            this.panel18.Visible = false;
-            // 
-            // panel12
-            // 
-            this.panel12.Controls.Add(this.label12);
-            this.panel12.Location = new System.Drawing.Point(42, 38);
-            this.panel12.Margin = new System.Windows.Forms.Padding(2);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(98, 35);
-            this.panel12.TabIndex = 47;
-            this.panel12.Visible = false;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Comic Sans MS", 15.6F, System.Drawing.FontStyle.Bold);
-            this.label12.Location = new System.Drawing.Point(0, 2);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(90, 30);
-            this.label12.TabIndex = 45;
-            this.label12.Text = "8x6=64";
-            // 
-            // panel13
-            // 
-            this.panel13.BackgroundImage = global::Таблица_умножения_Forms.Properties.Resources.cancel;
-            this.panel13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel13.Location = new System.Drawing.Point(3, 38);
-            this.panel13.Margin = new System.Windows.Forms.Padding(2);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(35, 35);
-            this.panel13.TabIndex = 46;
-            this.panel13.Visible = false;
-            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -522,12 +522,12 @@
             this.Text = "Form4";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel9.ResumeLayout(false);
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
-            this.panel17.ResumeLayout(false);
-            this.panel17.PerformLayout();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
+            this.panel17.ResumeLayout(false);
+            this.panel17.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
