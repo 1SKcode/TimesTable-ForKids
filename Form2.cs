@@ -194,7 +194,7 @@ namespace Таблица_умножения_Forms
                     button.BackgroundImageLayout = ImageLayout.Stretch;
                     button.FlatStyle = FlatStyle.Flat;
                     button.Font = new Font("Segoe UI Variable Text", 27.2F, FontStyle.Bold, GraphicsUnit.Point, ((byte)(0)));
-                    button.ForeColor = Color.DarkSlateGray;
+                    button.ForeColor = Color.Black;
                     button.Text = Convert.ToString(arr[indexArr]);
                     button.TabStop = false;
                     button.Click += PanelNew_Click;
@@ -203,7 +203,7 @@ namespace Таблица_умножения_Forms
                         button.BackgroundImage = Properties.Resources.PanelBack;
                     if (indexArr % 10 == 1 || indexArr % 10 == 4 || indexArr % 10 == 9)
                         button.BackgroundImage = Properties.Resources.PanelBack1;
-          //         if (indexArr % 10 == 2 || indexArr % 10 == 6)
+                    if (indexArr % 10 == 2 || indexArr % 10 == 6)
                         button.BackgroundImage = Properties.Resources.PanelBack2;
                     if (indexArr % 10 == 7 || indexArr % 10 == 8)
                         button.BackgroundImage = Properties.Resources.PanelBack4;
@@ -375,12 +375,12 @@ namespace Таблица_умножения_Forms
         bool newEventIsStart;
         private async void button4_MouseMove(object sender, MouseEventArgs e)
         {
-            while (animathionIsWorking == false && button4.Width <= 380 && newEventIsStart == false) // вылетание зеленой кнопки
+            while (animathionIsWorking == false && button4.Width <= 385 && newEventIsStart == false) // вылетание зеленой кнопки
             {
                 animathionIsWorking = true;
                 await Task.Delay(1);
-                button4.Size = new Size(button4.Width + (500 - button4.Width) / 25, 59);
-                button4.Size = new Size(button4.Width + 1, 59);
+                button4.Size = new Size(button4.Width + (500 - button4.Width) / 25, 48);
+                button4.Size = new Size(button4.Width + 1, 48);
                 animathionIsWorking = false;
             }
             if (button4.Width >= 380)
@@ -393,7 +393,7 @@ namespace Таблица_умножения_Forms
             {
                 animathionIsWorking = true;
                 await Task.Delay(1);
-                panel3.Size = new Size(367, panel3.Height + (300 - panel3.Height) / 5);
+                panel3.Size = new Size(379, panel3.Height + (300 - panel3.Height) / 5);
                 animathionIsWorking = false;
             }
 
@@ -416,8 +416,8 @@ namespace Таблица_умножения_Forms
             {
                 animathionIsWorking = true;
                 await Task.Delay(1);
-                panel3.Size = new Size(367, panel3.Height - panel3.Height / 5);
-                panel3.Size = new Size(367, panel3.Height - 1);
+                panel3.Size = new Size(379, panel3.Height - panel3.Height / 5);
+                panel3.Size = new Size(379, panel3.Height - 1);
 
                 label9.Location = new Point(390, label9.Location.Y - (80 - label9.Location.Y) / 5);
                 label9.Location = new Point(390, label9.Location.Y - 1);
@@ -429,7 +429,7 @@ namespace Таблица_умножения_Forms
             {
                 animathionIsWorking = true;
                 await Task.Delay(1);
-                button4.Size = new Size(button4.Width - button4.Width / 20, 59);
+                button4.Size = new Size(button4.Width - button4.Width / 20, 48);
                 animathionIsWorking = false;
             }
             newEventIsStart = false;

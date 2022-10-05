@@ -20,13 +20,13 @@ namespace Таблица_умножения_Forms
         {
 
             Rectangle screenSize = Screen.PrimaryScreen.Bounds;
-            if (screenSize.Height < 900 || screenSize.Width < 1600)
+            if (screenSize.Height < 1080 || screenSize.Width < 1920)
             {
 
                 MessageBox.Show(String.Format("Разрешение данного дисплея {1} x {0}. " +
                     "Есть вероятность, что элементы отобразятся некорректно. " +
-                    "Рекомендуемое МИНИМАЛЬНОЕ разрешение экрана для использованния программы " +
-                    "- 1600 х 900" , screenSize.Size.Height, screenSize.Size.Width), "ПРЕДУПРЕЖДЕНИЕ!");
+                    "Рекомендуемое разрешение экрана для использованния программы " +
+                    "- 1920 х 1080" , screenSize.Size.Height, screenSize.Size.Width), "ПРЕДУПРЕЖДЕНИЕ!");
             }
             
             InitializeComponent();
@@ -112,7 +112,7 @@ namespace Таблица_умножения_Forms
                 System.Windows.Forms.Label label = new System.Windows.Forms.Label();
                 label.Size = new Size(300, 33);
                 label.Location = new Point(3, 9);
-                label.Font = new Font("Microsoft YaHei", 14.8F, FontStyle.Bold);
+                label.Font = new Font("Microsoft YaHei", 17F, FontStyle.Bold);
                 label.Text = ratingListArr[i];
                 panel.Controls.Add(label);
 

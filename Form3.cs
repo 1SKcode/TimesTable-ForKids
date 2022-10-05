@@ -12,9 +12,18 @@ namespace Таблица_умножения_Forms
 {
     public partial class Form3 : Form
     {
+        int heightY;
+        int widthX;
         public Form3()
         {
             InitializeComponent();
+
+            /*Rectangle screenSize = Screen.PrimaryScreen.Bounds;
+            heightY = screenSize.Height;
+            widthX = screenSize.Width;
+            
+           *//* if (screenSize.Height < 900 || screenSize.Width < 1600)*/
+
             pictureBox1.MouseMove += (s, e) => { pictureBox1.Size = new Size(366, 504); pictureBox1.Location = new Point(83, 27); };
             pictureBox1.MouseLeave += (s, e) => { pictureBox1.Size = new Size(346, 484); pictureBox1.Location = new Point(93, 37); };
 

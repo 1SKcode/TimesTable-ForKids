@@ -135,13 +135,13 @@ namespace Таблица_умножения_Forms
 
             panel7.MouseMove += (s, e) =>
             {
-                panel7.Size = new Size(138, 138);
-                panel7.Location = new Point(900, 656);
+                panel7.Size = new Size(120, 120);
+                panel7.Location = new Point(893, 698);
             };
             panel7.MouseLeave += (s, e) =>
             {
-                panel7.Size = new Size(128, 128);
-                panel7.Location = new Point(905, 661);
+                panel7.Size = new Size(110, 110);
+                panel7.Location = new Point(898, 703);
             };
             panel7.MouseClick += (s, e) => { StatusGameUPDATE("Restart", 5); };
         }
@@ -260,7 +260,7 @@ namespace Таблица_умножения_Forms
                 }
                 FirstLabel.Visible = false; // на время перемещения выключаем видимость, так мы избавляемся от мерцания во время репоинта локации
                 count = 0;
-                fontIterator = 70;
+                fontIterator = 81;
                 ResetLabel(FirstLabel);
                 CheckHealth();
             }
@@ -293,7 +293,7 @@ namespace Таблица_умножения_Forms
                         AddLog("mis", SecondLabel);
                     }
                     count2 = 0;
-                    fontIterator2 = 70;
+                    fontIterator2 = 81;
                     ResetLabel(SecondLabel);
                     CheckHealth();
                 }
@@ -324,7 +324,7 @@ namespace Таблица_умножения_Forms
                         AddLog("mis", ThirdLabel);
                     }
                     count3 = 0;
-                    fontIterator3 = 70;
+                    fontIterator3 = 81;
                     ResetLabel(ThirdLabel);
                     CheckHealth();
                 }
@@ -360,16 +360,16 @@ namespace Таблица_умножения_Forms
             Label label = new Label();
             label.Location = new Point(0, 3);
             label.AutoSize = true;
-            label.Font = new Font("Comic Sans MS", 11.8F, FontStyle.Bold);
+            label.Font = new Font("Comic Sans MS", 15.6F, FontStyle.Bold);
             if (str == "mis+")
                 label.Text = "ОШИБКА";
             else
-            label.Text = l.Text.Replace(" ", "") + "=" + l.Name;
+                label.Text = l.Text.Replace(" ", "") + "=" + l.Name;
             panel1.Controls.Add(label);
 
             yAdder += 35;
 
-            if (yAdder >= 808)
+            if (yAdder >= 900)
             {
                 yAdder = 3;
                 firstColumnIsFull = true;
@@ -397,10 +397,7 @@ namespace Таблица_умножения_Forms
                 level++;
                 correctAnswerForLevelUp += 5;
                 label6.Text = "УРОВЕНЬ " + level;
-                if (level % 2 == 0)
-                {
-                    timer1.Interval -= 4;
-                }
+                timer1.Interval -= 2;
             }
         }
 
@@ -408,7 +405,7 @@ namespace Таблица_умножения_Forms
         {
             label.Visible = false;
             label.Location = new Point(802, 800);
-            label.Font = new Font("Segoe UI Black", 70, FontStyle.Bold);
+            label.Font = new Font("Segoe UI Black", 81, FontStyle.Bold);
             label.Visible = true;
         }
 
@@ -473,7 +470,7 @@ namespace Таблица_умножения_Forms
             mistakes = 0;
             level = 1;
             correctAnswer = 0;
-            timer1.Interval = 20;
+            timer1.Interval = 17;
             firstLabelAchGoal = false;
             DoubleShot.Visible = false;
             correctAnswerForLevelUp = 5;
@@ -483,15 +480,15 @@ namespace Таблица_умножения_Forms
             // Сброс трех лэйблов в стартовую позицию
             FirstLabel.Visible = false; // на время перемещения выключаем видимость, так мы избавляемся от мерцания во время репоинта локации
             count = 0;
-            fontIterator = 70;
+            fontIterator = 81;
             ResetLabel(FirstLabel);
 
             count2 = 0;
-            fontIterator2 = 70;
+            fontIterator2 = 81;
             ResetLabel(SecondLabel);
 
             count3 = 0;
-            fontIterator3 = 70;
+            fontIterator3 = 81;
             ResetLabel(ThirdLabel);
 
             //Создание нового массива
