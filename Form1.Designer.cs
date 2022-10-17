@@ -197,12 +197,12 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI Black", 24.8F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(150, 290);
+            this.button2.Location = new System.Drawing.Point(141, 290);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 70);
+            this.button2.Size = new System.Drawing.Size(218, 70);
             this.button2.TabIndex = 32;
-            this.button2.Text = "КОНВЕЕР";
+            this.button2.Text = "КОНВЕЙЕР";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // pictureBox2
