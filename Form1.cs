@@ -18,7 +18,7 @@ namespace Таблица_умножения_Forms
     {
         public Form1()
         {
-
+            //Проверка
             Rectangle screenSize = Screen.PrimaryScreen.Bounds;
             if (screenSize.Height < 1080 || screenSize.Width < 1920)
             {
