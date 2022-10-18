@@ -386,7 +386,7 @@ namespace Таблица_умножения_Forms
                 finalyRating = 100;
             using (StreamWriter writer = new StreamWriter("Rating.txt", true)) // Добавление в файл
             {
-                writer.WriteLineAsync("[КОНВЕЕР] " + "уровень" + level + "        | " + Convert.ToString(finalyRating));
+                writer.WriteLineAsync("[КОНВЕЙЕР] " + "уровень" + level + "        | " + Convert.ToString(finalyRating));
             }
         }
 
