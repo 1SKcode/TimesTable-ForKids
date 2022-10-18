@@ -225,9 +225,6 @@
     <None Include="Resources\5807361.jpg %28Пользовательское%291.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Снимок экрана 2022-09-29 232026.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\delete %281%29.png" />
   </ItemGroup>
   <ItemGroup>
@@ -247,7 +244,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Mt.ico" />
-    <None Include="Resources\Снимок экрана 2022-10-02 153611.png" />
+    <None Include="Resources\ФонРез.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

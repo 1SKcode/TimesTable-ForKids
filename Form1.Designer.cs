@@ -129,13 +129,13 @@
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.AutoScroll = true;
             this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.BackgroundImage = global::Таблица_умножения_Forms.Properties.Resources.Снимок_экрана_2022_10_02_153611;
+            this.panel2.BackgroundImage = global::Таблица_умножения_Forms.Properties.Resources.ФонРез;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Location = new System.Drawing.Point(138, 223);
+            this.panel2.Location = new System.Drawing.Point(142, 113);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(494, 667);
+            this.panel2.Size = new System.Drawing.Size(494, 775);
             this.panel2.TabIndex = 29;
             // 
             // panel4
@@ -170,7 +170,7 @@
             this.panel3.AutoScroll = true;
             this.panel3.BackColor = System.Drawing.Color.Silver;
             this.panel3.Controls.Add(this.label1);
-            this.panel3.Location = new System.Drawing.Point(138, 167);
+            this.panel3.Location = new System.Drawing.Point(142, 57);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(494, 57);
