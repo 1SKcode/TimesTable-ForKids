@@ -132,7 +132,7 @@
             this.panel2.BackgroundImage = global::Таблица_умножения_Forms.Properties.Resources.Снимок_экрана_2022_10_02_153611;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Location = new System.Drawing.Point(136, 112);
+            this.panel2.Location = new System.Drawing.Point(138, 223);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(494, 667);
@@ -145,7 +145,7 @@
             this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel4.Location = new System.Drawing.Point(550, 769);
+            this.panel4.Location = new System.Drawing.Point(626, 811);
             this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(93, 93);
@@ -159,9 +159,9 @@
             this.panel5.Controls.Add(this.panel3);
             this.panel5.Controls.Add(this.panel2);
             this.panel5.Controls.Add(this.panel4);
-            this.panel5.Location = new System.Drawing.Point(0, 111);
+            this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(698, 883);
+            this.panel5.Size = new System.Drawing.Size(720, 994);
             this.panel5.TabIndex = 39;
             // 
             // panel3
@@ -170,7 +170,7 @@
             this.panel3.AutoScroll = true;
             this.panel3.BackColor = System.Drawing.Color.Silver;
             this.panel3.Controls.Add(this.label1);
-            this.panel3.Location = new System.Drawing.Point(136, 56);
+            this.panel3.Location = new System.Drawing.Point(138, 167);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(494, 57);
