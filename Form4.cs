@@ -15,7 +15,7 @@ namespace Таблица_умножения_Forms
             CreateQuestionArr();
             StatusGameUPDATE("Restart", 5);
         }
-        private void SubsEvent()
+        private void SubsEvent() // Метод подписки на все нужные события 
         {
             timer1.Tick += (s, e) => LabelUpdate();
 
